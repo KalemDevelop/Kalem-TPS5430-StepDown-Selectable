@@ -110,20 +110,3 @@ The ENABLE pin has an internal pull-up, so the module turns on by default if the
 
 ---
 
-## 6. Repository Structure
-
-Suggested layout (adapt to your real repo):
-
-```text
-Kalem-TPS5430-StepDown-Selectable/
-├─ hardware/
-│  ├─ pcb/               # EDA project: schematic & PCB
-│  ├─ gerber/            # Manufacturing files
-│  └─ mechanical/        # STEP, DXF, drawings
-├─ docs/
-│  ├─ Kalem-TPS5430-StepDown-Selectable-Datasheet.pdf
-│  └─ images/
-│     ├─ kalem-tps5430-top.png
-│     ├─ kalem-tps5430-3d.png
-│     └─ mechanical-drawing.png
-└─ README.md
